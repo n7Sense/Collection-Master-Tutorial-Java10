@@ -1,4 +1,4 @@
-*****************
+`	*****************
 1.Collection 1.2
 *****************
 i.  it consider as Root interface.
@@ -57,9 +57,9 @@ Insertion order may be based on some hashCode() or by some Sorting order the obj
 we cant accept.
 
 
-***********************
+**************************
 java.util.NavigableSet 1.6
-***********************
+**************************
 it contains several methods for Navigable purpose
 
 

@@ -4,8 +4,7 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-public abstract interface Collection<E>
-  extends Iterable<E>
+public abstract interface Collection<E>  extends Iterable<E>
 {
   public abstract int size();
   public abstract boolean isEmpty();
