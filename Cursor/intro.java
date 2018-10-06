@@ -1,3 +1,5 @@
+
+
 Cursor:
 
 If we want to get Object one-by-one then we shuld go for Cursor

@@ -51,7 +51,6 @@ public class TraditionalArrayListJdk7 {
         */
         System.out.println("Planet 3"+planets3.toString());
         
-        
         //because we already imported java.util.Arrays
         List<String> planets4 = asList("Earth", "Mars", "Venus", "Uteras");
         System.out.println("Planet 4 : "+planets4.toString());  

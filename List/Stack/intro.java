@@ -1,6 +1,6 @@
 
-Stack
-===========
+	Stack
+=============
 
 1. It is a child class of Vector
 2. It is specially design for Last In first Out(LIFO)
