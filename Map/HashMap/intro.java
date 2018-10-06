@@ -24,3 +24,20 @@
 
 	4. public HashMap(Map<? extends K, ? extends V> m)
 		intercommunication between Map objects.
+
+10. Example in program
+	HashMapKeyInsertionMechanism.java of Out/Put is
+	{10 = Sunita}
+	that means internally HashMap use equals() methods to identify the duplication of the keys.
+	therefor equals() methods is for content comparison, so I1 and I2 contain same value i.e 10
+	there for previous value is replaced by JVM.
+
+11. Exampl: HashMap is stronger than Garbage Collector. HashMap dominate Garbage Collector.
+	see example in HashMapStrongerThanGarbageCollector.java
+
+12.  In the above Example the ProtectedByHashMap object not eligible for GC because it is assocoated with HashMap.
+		int this case out put is 
+
+	Before GC : {ProtectedByHashMap{id=2, name=Sunita}=Sunita, ProtectedByHashMap{id=1, name=Rahul}=Rahul}
+	finalize method called :
+	After GC : {ProtectedByHashMap{id=2, name=Sunita}=Sunita, ProtectedByHashMap{id=1, name=Rahul}=Rahul}
