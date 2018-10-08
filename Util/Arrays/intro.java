@@ -2,6 +2,7 @@
 ==============
 
 1. Arrays class is an utility class, to define several utility methods for Array Object.
+
 2. Arrays class define the following Sort methods to sort elements of Primitive and Object type Array.
 	Methods:
 
@@ -35,6 +36,7 @@
 
 		String [] s = {"A", "Z", "B"};
 		List l = Arrays.asList(s);
+
 										  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 										 /									 \			
 										/									  \				
@@ -45,6 +47,7 @@
 		List l 	----------------------->|									  |
 										\ 									  /
 										 \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _/
+
 
 		1.	By using Array REFERENCE if we perform any CHANGE, autometically that change will be reflected to the List.
 			similarly by using List REFERENCE if we perform any change that change will be reflected autometically
