@@ -10,6 +10,6 @@ Difference Between HashSet and LinkedHashSet
 
 	LinkedHashSet
 +++++++++++++++++++++
-1. The underlying Data Structure is HashTable, and the  underlying Data Structure is combination of LinkedList and HashTable
+1. The underlying Data Structure is combination of LinkedList and HashTable
 5. Insertion order must be preserved 
 6. introduced in 1.4 version

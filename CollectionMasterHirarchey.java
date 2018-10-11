@@ -25,3 +25,20 @@ List(I)                                Queue(I)                                 
                                                             |>PriorityBlockingQueue
                                                             |
                                                             |>SynchronousQueue
+
+
+                                            Map(I)
+                                               |
+        +--------------------------------------------------------------------------------------------+
+        |                           |                                  |                             |
+        |>WeakHashMap           SortedMap(I)                    ConcurrentMap(I)            javafx.collections.ObservableMap(I)
+        |                           |                           |         |                           |
+        |>IdentityHashM         NavigableMap(I)                 |         |>ConcurrentHashMap         |>javafx.beans.value.ObservableMapValue(I)
+        |                           |          \                |
+        |>Hashtable              TreeMap        \               |
+        |    |                              ConcurrentNavigableMap(I)
+        |    |>Properties                           |
+        |                                           |>ConcurrentSkipListMap
+        |>HashMap                                   
+            |
+            |>LinkedHashMap

@@ -55,7 +55,7 @@ C. ListIterator
 	2. By using ListIterator we perform REPLACEMENT and ADDITION of new Objects in addition to Read and Remove operations.
 	2. To get ListIterator Object.
 		ListIterator litr = collectionObject.listIterator();
-	3. ListIterator is child interface of Iterator and hence ll methods of Iterator are available in ListIterator.
+	3. ListIterator is child interface of Iterator and hence all methods of Iterator are available in ListIterator.
 	4. ListIterator define 9 methods.
 		1.public abstract boolean hasNext();
   		2.public abstract E next();

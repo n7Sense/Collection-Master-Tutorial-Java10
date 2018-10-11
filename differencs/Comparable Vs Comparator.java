@@ -1,8 +1,8 @@
 	Comparable Vs Comparator
 ==============================
 
-1. For predefiend Comparable classes Default Narural Sorting order already available. if we are not satis with that 
-	Default Natural order then we can define our own Sorting order bu using Comparator.
+1. For predefiend Comparable classes Default Narural Sorting order already available. if we are not satis with 
+	Default Natural Sorting order then we can define our own Sorting order by using Comparator.
 
 2. For pre-defiend Non-Comparable classes (like StringBuffer) default Natural Sorting order not already available
 	we can define our own Sorting by using Comparator interface.
@@ -16,7 +16,7 @@
 
 +++++++++++++++++++++++++++ 
 | Pre-define Comparable   +
-| 		classes           +	 			---------------------------------------> Comparator
+| 		classes           +	 			---------------------------------------> Comparable
 |		String            +
 |________________________ +
 

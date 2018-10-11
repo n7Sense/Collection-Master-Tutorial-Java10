@@ -22,7 +22,7 @@ Property				+	HashSet 				+	LinkedHashSet				+	TreeSet
 						+							+								+
 						+							+								+
 6. 	NULL Acceptence		+ 	Possible only once		+	Allowed only once			+ 	First Empty TreeSet as 
-						+							+								+	First eement NULL is allowed
+						+							+								+	First element NULL is allowed
 						+							+								+	until java 1.6 but after java 1.7
 						+							+								+	NULL is not allowed.
 						+							+								+
