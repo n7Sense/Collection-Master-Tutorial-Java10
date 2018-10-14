@@ -70,3 +70,13 @@ public class TraditionalArrayListJdk7 {
     }
     
 }
+
+
+run:
+Planets1 : [Earth, Mars] Size : 2
+Planet2 : [Immutable]
+Planet 3[Earth, Mars, Venus]
+Planet 4 : [Earth, Mars, Venus, Uteras]
+Planet 5 : [Earth, Mars, Venus]
+Planet 6 : [Sunita, Mars, Venus, Neptune]
+BUILD SUCCESSFUL (total time: 0 seconds)

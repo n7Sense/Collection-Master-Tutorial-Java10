@@ -1,5 +1,5 @@
-	Set 	1.2
-==========
+	Set 1.2 	extends Collection<E>
+============
 1.If we want to represent a group of a single objects as a single entity where Duplicates are not allowed and 
 	Insertion Order not preserved. then we shuld go for Set.
 2. Set interface doesn't contain any new methods we have to use only Collection. interface methods.

@@ -62,9 +62,7 @@ class ProtectedByHashMap{
     }
 }
 
-/* OutPut
 
-	Before GC : {ProtectedByHashMap{id=2, name=Sunita}=Sunita, ProtectedByHashMap{id=1, name=Rahul}=Rahul}
+Before GC : {ProtectedByHashMap{id=2, name=Sunita}=Sunita, ProtectedByHashMap{id=1, name=Rahul}=Rahul}
 After GC : {ProtectedByHashMap{id=2, name=Sunita}=Sunita, ProtectedByHashMap{id=1, name=Rahul}=Rahul}
 BUILD SUCCESSFUL (total time: 5 seconds)
-*/

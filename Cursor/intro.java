@@ -8,7 +8,7 @@ there are 3-types of Cursor available in java
 	2. Iterator
 	3. ListIterator
 
-A. Enumeration
+A. Enumeration	public interface java.util.Enumeration<E> 
 	We can use Enumeration to get Object one-by-one From Legacy Collection Object (i.e Vector, Stacke. ...etc)
 		e.g.1 
 			Stack s = new Stack();
@@ -36,26 +36,28 @@ A. Enumeration
 		3. To over come above Limitation we shuld go for Iterator
 
 
-B. Iterator
+B. Iterator public abstract interface java.util.Iterator<E>
 	1. We can apply Iterator concept for any Collection Object and hence it an Universal Cursor.
 	2. By using Iterator we can perform both Read and Remove operations.
 	e.g.1 to get Iterator Object by
 		Iterator itr = collectionObject.iterator();
+	
 
 	B.a.Limitation Of Iterator :
 		1. By usimg Enumeration and Iterator we can alway move only towards forward DIRECTION and cant move
 			towards backwards direction thease are single direction Cursor but not bi diracctional cursor.
-		2. by using iterator we can perform only READ and REMOVE operation and we can't perform REPLACEMENT and
-			ADDITION of new Obect.
+		2. by using iterator we can perform only READ and REMOVE operation and we can't perform REPLACEMENT and 
+		ADDITION of new Obect.
 		3. To overcome above limitation we shuld go for ListIterator.
 
-C. ListIterator
+C. ListIterator 	public abstract interface  java.util.ListIterator<E>  extends Iterator<E>
 	1. By using ListIterator we can move either to the Forward Direction or to the backwards direction
 		and hence it is BI-DIRECTIONAL cursor.
 	2. By using ListIterator we perform REPLACEMENT and ADDITION of new Objects in addition to Read and Remove operations.
 	2. To get ListIterator Object.
 		ListIterator litr = collectionObject.listIterator();
 	3. ListIterator is child interface of Iterator and hence all methods of Iterator are available in ListIterator.
+
 	4. ListIterator define 9 methods.
 		1.public abstract boolean hasNext();
   		2.public abstract E next();
@@ -69,4 +71,4 @@ C. ListIterator
 
   	5. the most powerfull cursor is ListIterator, but it's Limitation is it is applicable only for List Objects
 
-  		
+ 

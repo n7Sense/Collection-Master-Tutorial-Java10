@@ -1,5 +1,5 @@
 
-	Stack
+	Stack 	extends Vector<E> 
 =============
 
 1. It is a child class of Vector

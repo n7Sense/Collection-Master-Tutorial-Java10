@@ -28,14 +28,13 @@ public class ArrayListIterator{
 	}
 }
 
-/**OutPut
-	run:
-	Before All : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-	Even no. : 0
-	Even no. : 2
-	Even no. : 4
-	Even no. : 6
-	Even no. : 8
-	Even no. : 10
-	After ALL : [0, 2, 4, 6, 8, 10]
-*/
+run:
+Before All : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Even no. : 0
+Even no. : 2
+Even no. : 4
+Even no. : 6
+Even no. : 8
+Even no. : 10
+After ALL : [0, 2, 4, 6, 8, 10]
+BUILD SUCCESSFUL (total time: 0 seconds)

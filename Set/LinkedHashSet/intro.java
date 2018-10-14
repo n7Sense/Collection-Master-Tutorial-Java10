@@ -1,5 +1,5 @@
 	
-	LinkedHashSet  1.4
+	LinkedHashSet  1.4   extends HashSet<E>  implements Set<E>, Cloneable, java.io.Serializable
 =======================
 
 1. It is child class of HashSet.

@@ -17,3 +17,9 @@ public class ShiftingLowPerformence{
         
     }
 }
+
+
+run:
+Planets 3 [hero, hero, Zebra, Earth, Maars, Moon, null, 10]
+Size :8
+BUILD SUCCESSFUL (total time: 5 seconds)

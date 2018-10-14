@@ -1,4 +1,4 @@
-	SortedSet
+	SortedSet   extends Set<E>
 =================
 
 1. If we want to represent a group of an individual Objects according to some sorting order without duplicte

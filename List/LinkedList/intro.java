@@ -1,5 +1,5 @@
 
-LinkedList
+LinkedList extends AbstractSequentialList<E> implements List<E>, Deque<E>, Cloneable, Serializable
 ================
 
 1. underline data-structure is Double LinkedList or doubly LinkedList

@@ -3,7 +3,7 @@
 
 1. Map is NOT child interface of Collection.
 2. If we want to represent a group of Object as <key, value> pair the we shuld go for map.
-3. bth kys and Vlues are object only.
+3. both kys and Vlues are object only.
 4. Duplicate keys are not allowed but values can be duplicated.
 5. each <Key, Value> pair is called entry. hence Map is consider as a Collection of Entry Object.
 6. Methods

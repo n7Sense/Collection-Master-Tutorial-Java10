@@ -1,5 +1,5 @@
 
-ArrayList
+ArrayList  public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, java.io.Serializable
 
 1.Duplicates are allowed
 2. insertion order must be preserved.

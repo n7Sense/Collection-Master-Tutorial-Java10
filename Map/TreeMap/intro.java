@@ -12,7 +12,7 @@
 	we can take Hetrogenious Non-Comparable object also.
 
 7. NULL Expectence : 
-	 1.for Non-Empty TreeMap if we are trying to an insert an entry with NULL key the we will get RE: NullPointerException.
+	 1.for Non-Empty TreeMap if we are trying to insert an entry with NULL key then we will get RE: NullPointerException.
 	 
 	 2.for empty TreeMap as the first entry with null key is allowed, but after inserting that entry if we are trying to insert
 		any other entry then we will get RE: NullPointerException

@@ -3,7 +3,7 @@
 public class Example1{
 
 	public static void main(String[] args) {
-		LinkedList l = new LinkedList();
+	LinkedList l = new LinkedList();
        l.add("a");
        l.add(10);
        l.add("Sunita");

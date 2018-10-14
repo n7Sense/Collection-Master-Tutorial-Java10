@@ -1,5 +1,5 @@
 
-A. HashSet
+A. HashSet	 extends AbstractSet<E>  implements Set<E>, Cloneable, java.io.Serializable
 ============
 
 1. The UnderLine Data Structure is HashTable.
@@ -7,7 +7,7 @@ A. HashSet
 3. Insertion order is not preserved and it is based on Hashcode of Objects.
 4. Null insertion is possible (but only once)
 5. Hetrogenious Objects are allowed.
-6. implements Serializable and Cloneable but RandomAccess interface.
+6. implements Serializable and Cloneable but not RandomAccess interface.
 7. HashSet is the best choice if aor frequent operation is SEARCH OPERATION.
 9. NOTE: In HashSet duplicate are not allowed, If we are trying to insert duplicate then we wont get any 
 		Compile Time or Runtime Errors, and add() methods simply returns FALSE.
