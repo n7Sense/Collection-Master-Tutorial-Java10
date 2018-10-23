@@ -1,30 +1,30 @@
 
 
-                                    Collection(I)
-                                           |
-    +-----------------------------------------------------------------------------------------+
-    |                                      |                                                  |
-List(I)                                Queue(I)                                              Set(I)
-/\                                    /        \                                            /      \
-|                                    /          \                                          /        \
-|>ArrayList                         /            \                              HashSet <-/          \->SortedSet(I) 
-|                                  /              \                                 |                   |
-|>LinkedList ---------> Dequeue(I)                  BlockingQueue(I)                |>LinkedHashSet     |>NaviganleSet(I)
-|                         |     \                     /     |     \                                          |
-|>CopyOnWriteArrayList    |      \                   /      |      \                                         |>TreeSet
-|                         |     BlockingDequeue(I)<-/       |        TransferQueue(I)                        |
-|>Vector                  |     |                           |                   |                            |>ConcurrentSkipListSet
-    |                     |     |>LinkedBloickingDeque      |                   |>LinkedTransferQueue
-    |>Stack               |                                 |                                                  
-               ArrayDeque<|                                 |>DelayQueue                 
-                          |                                 |
-      ConcurrentListDeque<|                                 |>ArrayBlockingQueue
-                                                            |
-                                                            |>LinkedBlockingDeque
-                                                            |
-                                                            |>PriorityBlockingQueue
-                                                            |
-                                                            |>SynchronousQueue
+                                                                        Collection(I)
+                                                                               |
+                                        +------------------------------------------------------------------------------------------+
+                                        |                                   |                                                      |
+                                    List(I)                              Queue(I) <--\                                           Set(I)
+                                    /\                                 /    |         \                                          /      \
+                                    |                                 /     |          \                                        /        \
+                          ArrayList<|                                /      |           \                            HashSet <-/          \->SortedSet(I) 
+                            |       |                               /       |            \                                |                   |
+                            |       |>LinkedList --------->Dequeue(I)   PriorityQueue     BlockingQueue(I)                |>LinkedHashSet     |>NaviganleSet(I)
+              AttributeList<|       |                         |     \                     /     |     \                                          |
+                            |       |>CopyOnWriteArrayList    |      \                   /      |      \                                         |>TreeSet
+                   RoleList<|       |                         |     BlockingDequeue(I)<-/       |        TransferQueue(I)                        |
+                            |       |>Vector                  |     |                           |                   |                            |>ConcurrentSkipListSet
+         RoleUnresolvedList<|           |                     |     |>LinkedBloickingDeque      |                   |>LinkedTransferQueue
+                                        |>Stack               |                                 |                                                  
+                                                   ArrayDeque<|                                 |>DelayQueue                 
+                                                              |                                 |
+                                          ConcurrentListDeque<|                                 |>ArrayBlockingQueue
+                                                                                                |
+                                                                                                |>LinkedBlockingQeque
+                                                                                                |
+                                                                                                |>PriorityBlockingQueue
+                                                                                                |
+                                                                                                |>SynchronousQueue
 
 
                                             Map(I)
@@ -33,7 +33,7 @@ List(I)                                Queue(I)                                 
         |                           |                                  |                             |
         |>WeakHashMap           SortedMap(I)                    ConcurrentMap(I)            javafx.collections.ObservableMap(I)
         |                           |                           |         |                           |
-        |>IdentityHashM         NavigableMap(I)                 |         |>ConcurrentHashMap         |>javafx.beans.value.ObservableMapValue(I)
+        |>IdentityHashMap         NavigableMap(I)               |         |>ConcurrentHashMap         |>javafx.beans.value.ObservableMapValue(I)
         |                           |          \                |
         |>Hashtable              TreeMap        \               |
         |    |                              ConcurrentNavigableMap(I)

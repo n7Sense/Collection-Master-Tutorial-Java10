@@ -18,6 +18,7 @@ public class HashMapDemo{
        hm.put("east1", "Mahendra");
        hm.put("est2", "Keshav");
        hm.put("east3", "Madhusudan");
+       hm.put("east3", "Madhusudan");
        
        System.out.println("HahMap Object: "+hm);
        hm.put("east1", "Krishna");
@@ -42,3 +43,20 @@ public class HashMapDemo{
     }
    
 }
+/*
+
+OUT/PUT:
+
+HahMap Object: {est2=Keshav, friend=Kunal, east1=Mahendra, lv=Sunita, myname=Rahul, east3=Madhusudan}
+HahMap Object replace: {est2=Keshav, friend=Kunal, east1=Krishna, lv=Sunita, myname=Rahul, east3=Madhusudan}
+Key Set Object: [est2, friend, east1, lv, myname, east3]
+Collection Object values: [Keshav, Kunal, Krishna, Sunita, Rahul, Madhusudan]
+EntrySet Object: [est2=Keshav, friend=Kunal, east1=Krishna, lv=Sunita, myname=Rahul, east3=Madhusudan]
+Key & Valueest2 : Keshav
+Key & Valuefriend : Kunal
+Key & Valueeast1 : Krishna
+Key & Valuelv : Sunita
+Key & Valuemyname : Rahul
+Key & Valueeast3 : Madhusudan
+Change : {est2=Keshav, friend=Kunal, east1=Krishna, lv=Sunita, myname=Rahul, east3=Madhusudan}
+*/

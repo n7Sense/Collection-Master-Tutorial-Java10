@@ -53,7 +53,7 @@ public class LinkedHashMapDemo {
     }
    
 }
-/** OutPut
+Out/Put:
 HahMap Object: {myname=Rahul, lv=Sunita, friend=Kunal, east1=Mahendra, est2=Keshav, east3=Madhusudan}
 HahMap Object replace: {myname=Rahul, lv=Sunita, friend=Kunal, east1=Krishna, est2=Keshav, east3=Madhusudan}
 Key Set Object: [myname, lv, friend, east1, est2, east3]
@@ -66,4 +66,3 @@ Key & Valueeast1 : Krishna
 Key & Valueest2 : Keshav
 Key & Valueeast3 : Madhusudan
 Change : {myname=Rahul, lv=Sunita, friend=Kunal, east1=Krishna, est2=Keshav, east3=Madhusudan}
-*/
