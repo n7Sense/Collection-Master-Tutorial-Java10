@@ -8,7 +8,8 @@ there are 3-types of Cursor available in java
 	2. Iterator
 	3. ListIterator
 
-A. Enumeration	public interface java.util.Enumeration<E> 
+A. Enumeration	
+	public interface java.util.Enumeration<E> 
 	We can use Enumeration to get Object one-by-one From Legacy Collection Object (i.e Vector, Stacke. ...etc)
 		e.g.1 
 			Stack s = new Stack();

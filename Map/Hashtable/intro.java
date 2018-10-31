@@ -8,7 +8,7 @@
 5. Null is not allowed for both key and values, otherwise we will ge RuntimeException saying NullPointerException
 6. 	public class Hashtable<K, V>  extends Dictionary<K, V>   implements Map<K, V>, Cloneable, Serializable
 7. every methods present in Hashtable is synchronized and hence Hashtable object is Thread Safe.
-8. Hashtable is the best choice if our frequent operation is RSearch operation.
+8. Hashtable is the best choice if our frequent operation is for Search operation.
 
 9. Constructor:
 

@@ -19,7 +19,7 @@ Difference Between HashMap and HashTable
 5. introduced in java 1.2 version, and it not Legacy			+	introduced in java 1.0 version and it is Legacy
 																+	
 6. synchronized the HashMap										+	Hashtable is internally synchronized and
-HashMap map = Collections.synchronizedMap(HashMapObject)		+	can't be unsynchronized.
+HashMap map = Collections.synchronizedMap(HashMapObject)		+	cant be unsynchronized.
 																+
 7. Iterator in HashMap is fail-fast.							+	Enumerator in Hashtable is not fail-fast
 																+

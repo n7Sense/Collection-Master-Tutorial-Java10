@@ -10,6 +10,8 @@
 6. introduced in 1.4 version
 7. In general we can use LinkedHashSet to develop cashed based applications, where duplicates are not allowed
 	and insertion order preserved.
+
+8. allowed only one NULL value
 	
 
 
