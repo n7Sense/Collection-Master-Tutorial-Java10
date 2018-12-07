@@ -19,6 +19,7 @@ A. Enumeration
 	            System.out.println("One-By-One : "+element);
         	}
         	System.out.println("Get All In Once : "+s);
+        	
         e.g.2
         	Vector v = new Vector();
 	        for(int i=0; i<10;i++)
@@ -47,7 +48,7 @@ B. Iterator public abstract interface java.util.Iterator<E>
 	B.a.Limitation Of Iterator :
 		1. By usimg Enumeration and Iterator we can alway move only towards forward DIRECTION and cant move
 			towards backwards direction thease are single direction Cursor but not bi diracctional cursor.
-		2. by using iterator we can perform only READ and REMOVE operation and we can't perform REPLACEMENT and 
+		2. by using iterator we can perform only READ and REMOVE operation and we cant perform REPLACEMENT and 
 		ADDITION of new Obect.
 		3. To overcome above limitation we shuld go for ListIterator.
 

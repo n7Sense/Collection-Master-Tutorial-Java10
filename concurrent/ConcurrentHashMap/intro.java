@@ -29,7 +29,7 @@
  		so in this scenario for every Bucket-Level 2-Locks will be mentained.
 
  6. the underlying Data Structure is HashTable.
- 7. ConcurrentHashMap allo concurrent read operation, and thread-Safe update operation.
+ 7. ConcurrentHashMap allow concurrent read operation, and thread-Safe update operation.
  8. to perform READ operation thread wont required any lock, but to perform UPDATE operation thread required lock
  	but it is lock of particular part of Map object i.e called Segment-Level Lock or Bucket-Level Lock
 
@@ -37,7 +37,7 @@
  	defiend by Concurrency-Level
  10. the  default concurrency level is 16 
  11. ConcurrentHashMap allowed any no. of read operation, but 16 update operation at a time by default
- 		because o Concurrency-Level.
+ 		because of Concurrency-Level.
  12. Null is not allowed for both key and values.
  13. while one thread iterating the other thread can perform Update operation and ConcurrentHashMap or any Concurrent class never 
  	throw ConcurrentModificationException 

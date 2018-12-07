@@ -11,7 +11,7 @@ ArrayList  public class ArrayList<E> extends AbstractList<E> implements List<E>,
 	 where required ability will be provided autometically by the JVM.
 
 7. if our frequent operation is Retrival is best but if for Insertion and deletion it is very worst
-	because in ArrayList is there is 10 element and if i add value at 1index 
+	because in ArrayList is there is 10 element and if i add value at 1 index 
 
 8. Every methods present in all are Non-Synchronized
 9. Not thread safe.
