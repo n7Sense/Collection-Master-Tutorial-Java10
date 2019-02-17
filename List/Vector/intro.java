@@ -8,7 +8,7 @@
 5. Null allowed.
 6. every methods in Vector are synchronized and hennce Vector is Thread safe
 7. public class Vector<E>   extends AbstractList<E>  implements List<E>, RandomAccess, Cloneable, Serializable
-8. Vector v=new Vector() create empty vector Object with default initial capacity 10 once vector reaches it's MAX capacity
+8. Vector v=new Vector() create empty vector Object with default initial capacity 10 once vector reaches it is MAX capacity
 	then a new Vector objects will be created with the new_capacity = current_capacity * 2;
 9.	:Constructoe
 	 	public Vector()

@@ -22,5 +22,4 @@ ArrayList  public class ArrayList<E> extends AbstractList<E> implements List<E>,
 	List l = Collections.synchronizedList(al);
 
 12. default initial capicity methods 10 and incremented by (initial_capacity*3/2)+1
-
-
+13. extends AbstractList<E>   implements List<E>, RandomAccess, Cloneable, Serializable

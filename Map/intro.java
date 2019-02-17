@@ -36,7 +36,7 @@
   
   	12. public  Set<Map.Entry<K, V>> entrySet();
 
-7. 	A map is a group of key value pair, and each <key, value> pair is called an enty hence a Map is consider as a Collection of entry Object.
+7. 	A map is a group of key value pair, and each <key, value> pair is called an entry hence a Map is consider as a Collection of entry Object.
 	without existing Map Object there is no chance of existing entry Object Hence Entry interface is define inside Map interface.
 	and the Entry specific methods is
 	1. public  Set<K> keySet(); 2. public  Collection<V> values(); 3. public  Set<Map.Entry<K, V>> entrySet();

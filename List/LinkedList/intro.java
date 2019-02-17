@@ -16,9 +16,10 @@ Q.1. Write a program Array based implementation with Stack and Queue.
 	it is easy but performence wise bad.
 
 Q.2. Write a program LinkedList based implementation with Stack (LIFO) and Queue (FIFO).
-	 usually we can LinkedList to develop Stack and Queue to provide support for this requirement
-	 LinkedList class the define the following specific methods.
-	 LinkedList commoenly use with Stack and Queue, because it specific methods.
+	 usually we can use LinkedList to develop Stack and Queue to provide support for this requirement
+	 LinkedList class that define the following specific methods.
+	 LinkedList commonely use with Stack and Queue, because it specific methods.
+	 
 	 1. void addFirst();
 	 2. void addLast();
 	 3. Object getFirst();
